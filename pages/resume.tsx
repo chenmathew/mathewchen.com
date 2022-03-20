@@ -1,4 +1,5 @@
 import React from "react";
+import Favicon from "./components/favicon";
 import Navbar from "./components/navbar";
 import Wrapper from "./utility/wrapper";
 
@@ -7,6 +8,7 @@ interface programsProps {}
 const Programs: React.FC<programsProps> = ({}) => {
   return (
     <div>
+      <Favicon title="Resume" />
       <Navbar />
       <Wrapper>
         <div className="font-light">
