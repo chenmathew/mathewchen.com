@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "./components/navbar";
 import About from "./components/about";
 import Favicon from "./components/favicon";
+import Footer from "./components/footer";
+import Wrapper from "./utility/wrapper";
 
 interface indexProps {}
 
@@ -10,9 +12,10 @@ const Index: React.FC<indexProps> = ({}) => {
     <div>
       <Favicon title="Home" />
       <Navbar />
-      <div>
+      <Wrapper>
         <About />
-      </div>
+        <Footer />
+      </Wrapper>
     </div>
   );
 };

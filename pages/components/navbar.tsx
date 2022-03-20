@@ -11,9 +11,7 @@ const Navbar: React.FC<navbarProps> = ({}) => {
           <nav className="flex items-center justify-between flex-wrap  p-6">
             <div className="flex items-center flex-shrink-0 mr-6">
               <Link href="/">
-                <a className="font-medium text-xl hover:text-rose-300">
-                  Mathew Chen
-                </a>
+                <a className="text-2xl hover:text-rose-400">Mathew Chen</a>
               </Link>
             </div>
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
