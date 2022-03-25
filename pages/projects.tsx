@@ -1,24 +1,23 @@
 import React from "react";
-import Navbar from "./components/navbar";
-import About from "./components/about";
 import Favicon from "./components/favicon";
 import Footer from "./components/footer";
+import Navbar from "./components/navbar";
+import Projs from "./components/projs";
 import Wrapper from "./utility/wrapper";
-import Projects from "./components/projs";
 
-interface indexProps {}
+interface projectsProps {}
 
-const Index: React.FC<indexProps> = ({}) => {
+const Projects: React.FC<projectsProps> = ({}) => {
   return (
     <div>
       <Favicon title="Home" />
       <Navbar />
       <Wrapper>
-        <About />
+        <Projs />
         <Footer />
       </Wrapper>
     </div>
   );
 };
 
-export default Index;
+export default Projects;

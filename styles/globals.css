@@ -15,6 +15,7 @@ body {
   --tw-text-opacity: 1;
   color: rgb(241 245 249 / var(--tw-text-opacity));
   letter-spacing: 0.025em;
+  font-weight: 300;
 }
 
 hr {

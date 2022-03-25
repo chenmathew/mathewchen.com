@@ -21,6 +21,11 @@ const Navbar: React.FC<navbarProps> = ({}) => {
                     Resume
                   </a>
                 </Link>
+                <Link href="/projects">
+                  <a className="block mt-4 lg:inline-block lg:mt-0 hover:text-rose-400 mr-4">
+                    Projects
+                  </a>
+                </Link>
                 <Link href="https://github.com/chenmathew/">
                   <a
                     target="_blank"

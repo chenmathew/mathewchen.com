@@ -19,11 +19,11 @@ const Resume: React.FC<resumeProps> = ({}) => {
           </span>
           <span className="float-right">Portland, OR</span>
           <ul>
-            <li>Cumulative GPA: 3.40</li>
+            <li>Major GPA: 3.46</li>
             <li>
               Relevant Coursework: Data Structures, Algorithms, Software
               Engineering, Discrete Math, Computer Systems Programming, Object
-              Oriented Programming, Linear Algebra, Operation Systems
+              Oriented Programming, Linear Algebra, Operating Systems
             </li>
           </ul>
         </div>
@@ -84,8 +84,12 @@ const Resume: React.FC<resumeProps> = ({}) => {
         </h1>
         <div>Personal Website (NextJS, Typescript) - Personal Project</div>
         <ul className="text-sm">
+          <li>
+            Learned React with Typescript to make code modular and have type
+            checking
+          </li>
           <li>Styled components with TailwindCSS to make website responsive</li>
-          <li>Deployed website using Firebase</li>
+          <li>Deployed website using Google&apos;s Firebase</li>
         </ul>
         ChocoAn Project (C++) - School Project
         <ul className="text-sm">
@@ -136,8 +140,8 @@ const Resume: React.FC<resumeProps> = ({}) => {
         </div>
       </div>
       <a
-        href="/MathewChenResume.pdf"
-        download
+        href="/resume.pdf"
+        download="Chen Mathew Resume"
         className="flex justify-center m-5"
       >
         Download my resume! (PDF)
