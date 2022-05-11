@@ -1,0 +1,2 @@
+curl -H "Authorization: Basic MWQzZDkwNzAyZmJmNDkyOGI2YTE1NjUzNmM3NDk1NDQ6NWZiYmY1NGZkMzEyNDViYTk3NjI5YmI1MTVhZDRmYjA=" -d grant_type=authorization_code -d code=AQAKFhUOSM3zWzsKa9RmRpDTa8Ng_NYT0wNk4aINKWIczUvLbhzo6jkjcyHcNIjpu4jFBtsi6ng7nrNpHKyv_HX49jNsUOO0TOJLuSC2qlsVkkRqkCP3tmjSI2YHo8itby7GJZVYydWSCOCG7s3h5vWwo45WFS_kj3rsz0Jkqq9EDyiwglAJEpgODDmatPjrXP5ISqXG -d redirect_uri=http%3A%2F%2Flocalhost:3000 https://accounts.spotify.com/api/token
+

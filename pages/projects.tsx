@@ -2,6 +2,7 @@ import React from "react";
 import Favicon from "./components/favicon";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
+import { NowPlaying } from "./components/nowplaying";
 import Projs from "./components/projs";
 import Wrapper from "./utility/wrapper";
 
