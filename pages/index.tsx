@@ -19,7 +19,6 @@ const Index: React.FC<indexProps> = ({}) => {
       <Wrapper>
         <About />
         <Footer />
-        <Spotify />
         {/*<NowPlaying />*/}
       </Wrapper>
     </div>
