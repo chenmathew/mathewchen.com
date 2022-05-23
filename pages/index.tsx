@@ -19,7 +19,7 @@ const Index: React.FC<indexProps> = ({}) => {
       <Wrapper>
         <About />
         <Footer />
-        {/*<NowPlaying />*/}
+        <NowPlaying />
       </Wrapper>
     </div>
   );
