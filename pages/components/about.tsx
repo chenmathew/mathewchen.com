@@ -1,19 +1,26 @@
 import React from "react";
-import { NowPlaying } from "./nowplaying";
+import Image from "next/image";
 
 const test = process.env.TOKEN;
 
 interface aboutProps {}
 
 const About: React.FC<aboutProps> = ({}) => {
-
   return (
     <div>
+      <div className="flex justify-center">
+        <Image
+          alt="Picture of the author"
+          width={200}
+          height={200}
+          src="/photo.jpeg"
+        />
+      </div>
       <h1 className="font-light text-xl">About me</h1>
       <p className="indent-4 font-extralight">
         I&apos;m Mathew Chen, a computer science student graduating in 2023 and
-        a developer. Interested in fullstack web development, but I am open for
-        any software development opportunity as I am still exploring.
+        a developer. Interested in becoming a software developer and looking for
+        an internship.
       </p>
       <hr></hr>
 

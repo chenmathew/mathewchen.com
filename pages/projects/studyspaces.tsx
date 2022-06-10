@@ -5,9 +5,9 @@ import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import Wrapper from "../utility/wrapper";
 
-interface compressorProps {}
+interface StudyspacesProps {}
 
-const Compressor: React.FC<compressorProps> = ({}) => {
+const Studyspaces: React.FC<StudyspacesProps> = ({}) => {
   return (
     <div>
       <Favicon title="Home" />
@@ -20,26 +20,25 @@ const Compressor: React.FC<compressorProps> = ({}) => {
         </Link>
         <div>Why I Made This</div>
         <p>
-          My friends and I would always complain about how Twitter and Tiktok
-          videos are terribly integrated with Discord because you are unable to
-          view the video in discord.
+          For my full stack web development course, we had to create a final
+          project that implemented a front end, back end, and a database. I was
+          responsible for creating the front end.
         </p>
         <hr></hr>
         <div>Purpose</div>
         <p>
-          Discord limits files to 8mb for bots. Using multiple libraries, I was
-          able to compress videos to less than 8mb and have the bot
-          automatically send the compressed video whenever it detects a Twitter
-          or Tiktok video.
+          Because of the pandemic, students were stuck inside their residences
+          and there were only certain areas that students were allowed to go to
+          to study. With Study Spaces, students can find what buildings and
+          areas they are able to study at.
         </p>
         <hr></hr>
-        <p></p>
         <a
-          href="https://github.com/chenmathew/Discord-Compressor"
+          href="https://www.youtube.com/watch?v=JQy_7PIM8jM"
           target="_blank"
           rel="noreferrer noopener"
         >
-          Github repo
+          Video Presentation
         </a>
         <Footer />
       </Wrapper>
@@ -47,4 +46,4 @@ const Compressor: React.FC<compressorProps> = ({}) => {
   );
 };
 
-export default Compressor;
+export default Studyspaces;
