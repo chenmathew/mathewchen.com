@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "./components/navbar";
-import About from "./components/about";
-import Favicon from "./components/favicon";
-import Footer from "./components/footer";
-import Wrapper from "./utility/wrapper";
+import Navbar from "../components/navbar";
+import About from "../components/about";
+import Favicon from "../components/favicon";
+import Footer from "../components/footer";
+import Wrapper from "../components/utility/wrapper";
 import useSWR from "swr";
 
 interface indexProps {}

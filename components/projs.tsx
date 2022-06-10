@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "./projectdata/projects";
+import projects from "./projectdata/projects";
 
 function ProjectItem(props: any) {
   return (

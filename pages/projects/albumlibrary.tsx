@@ -1,10 +1,10 @@
 import Link from "next/link";
 import React from "react";
-import About from "../components/about";
-import Favicon from "../components/favicon";
-import Footer from "../components/footer";
-import Navbar from "../components/navbar";
-import Wrapper from "../utility/wrapper";
+import About from "../../components/about";
+import Favicon from "../../components/favicon";
+import Footer from "../../components/footer";
+import Navbar from "../../components/navbar";
+import Wrapper from "../../components/utility/wrapper";
 
 interface albumlibraryProps {}
 

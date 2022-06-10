@@ -1,9 +1,9 @@
 import React from "react";
-import Favicon from "./components/favicon";
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
-import Projs from "./components/projs";
-import Wrapper from "./utility/wrapper";
+import Favicon from "../components/favicon";
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
+import Projs from "../components/projs";
+import Wrapper from "../components/utility/wrapper";
 
 interface projectsProps {}
 

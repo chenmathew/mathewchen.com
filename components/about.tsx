@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 
 const test = process.env.TOKEN;
 
@@ -9,7 +8,7 @@ const About: React.FC<aboutProps> = ({}) => {
   return (
     <div>
       <div className="flex justify-center">
-        <Image
+        <img
           alt="Picture of the author"
           width={200}
           height={200}

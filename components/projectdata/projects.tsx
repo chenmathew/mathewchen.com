@@ -1,4 +1,4 @@
-export const projects = [
+const projects = [
   {
     id: 0,
     title: "Study Spaces",
@@ -24,3 +24,5 @@ export const projects = [
     demo: "/compressor.gif",
   },
 ];
+
+export default projects;
